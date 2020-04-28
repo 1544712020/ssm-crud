@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <settings>
+        <!--开启驼峰命名规则映射-->
+        <!--从数据库的a_column命名方式转换到Java的aColumn-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!--指定MyBatis所用日志的集体实现，未指定则自动查找-->
+        <setting name="logImpl" value="LOG4J"/>
+    </settings>
+
+    <!--给包下面的类文件起别名-->
+    <typeAliases>
+        <package name="top.kongk.ssmcrud.bean"/>
+    </typeAliases>
+
+</configuration>
