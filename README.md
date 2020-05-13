@@ -13,6 +13,14 @@
 - 业务逻辑层：该层由Service接口和实现类组成
 - Web表现层：该层由SpringMVC中的Controller类和HTML页面以及JS文件组成
 
+#### 项目开发以及运行环境
+- 操作系统：Windows
+- Web服务器：Tomcat
+- Java开发包：JDK
+- 开发工具：IDEA
+- 项目构建工具：Maven
+- 数据库：MySQL
+- 浏览器：谷歌
 
 #### 数据库中有员工表和员工所在部门的部门表
 
